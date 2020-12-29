@@ -133,9 +133,10 @@ RUN gem install bundler:2.1.4
 COPY Gemfile* ./
 RUN bundle i
 
-# Install uml
+# Install graphviz & plantuml
 RUN apk add --no-cache graphviz curl && \
-  curl -L http://sourceforge.net/projects/uml/files/plantuml.jar/download -o ~/plantuml.jar && \
+  curl -L http://sourceforge.net/projects/plantuml/files/plantuml.1.2020.26.jar/download > ~/plantuml.1.2020.26.jar && \
+  ln -sv ~/plantuml.1.2020.26.jar ~/plantuml.jar && \
   apk del curl
 
 # create WORKDIR

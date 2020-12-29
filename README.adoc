@@ -1,4 +1,25 @@
-= Asciidoctor-Extended
+= Asciidoctor-Extended =
 
 This repository contains a Dockerfile and Gemfile.lock for building a docker image that contains Asciidoctor with Extensions, such as asciidoctor-diagram & asciidoctor-pdf
 
+== Build Instructions ==
+
+To build locally, run:
+
+....
+docker build -t asciidoctor-extended:Dockerfile .
+....
+
+== Usage ==
+
+Pull docker image using:
+
+....
+docker pull capsulecorplab/asciidoctor-extended
+....
+
+Example usage:
+
+....
+sudo docker run --rm --volume $PWD:/src -w "/src" capsulecorplab/asciidoctor-extended 'asciidoctor *.adoc -r asciidoctor-diagram'
+....
