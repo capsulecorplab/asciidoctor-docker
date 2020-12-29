@@ -133,9 +133,8 @@ RUN gem install bundler:2.1.4
 COPY Gemfile* ./
 RUN bundle i
 
-# Install uml
+# Install graphviz
 RUN apk add --no-cache graphviz curl && \
-  curl -L http://sourceforge.net/projects/uml/files/plantuml.jar/download -o ~/plantuml.jar && \
   apk del curl
 
 # create WORKDIR
