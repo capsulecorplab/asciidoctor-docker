@@ -24,6 +24,7 @@ GEM
     css_parser (1.7.1)
       addressable
     hashery (2.1.2)
+    liquidoc (0.9.5)
     pdf-core (0.7.0)
     pdf-reader (2.4.1)
       Ascii85 (~> 1.0.0)
@@ -60,6 +61,7 @@ DEPENDENCIES
   asciidoctor (~> 2.0)
   asciidoctor-diagram (~> 2.0)
   asciidoctor-pdf (~> 1.5)
+  liquidoc (~> 0.9.5)
 
 BUNDLED WITH
    2.1.4
