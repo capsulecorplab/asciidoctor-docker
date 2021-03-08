@@ -11,3 +11,5 @@ gem "asciidoctor-diagram", "~> 2.0"
 gem "asciidoctor-pdf", "~> 1.5"
 
 gem "liquidoc", "~> 0.9.5"
+
+gem "asciidoctor-revealjs", "~> 4.1"

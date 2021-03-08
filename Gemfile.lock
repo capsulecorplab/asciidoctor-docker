@@ -20,6 +20,10 @@ GEM
       thread_safe (~> 0.3.0)
       treetop (~> 1.6.0)
       ttfunk (~> 1.5.0, >= 1.5.1)
+    asciidoctor-revealjs (4.1.0)
+      asciidoctor (>= 2.0.0, < 3.0.0)
+      concurrent-ruby (~> 1.0)
+      thread_safe (~> 0.3.5)
     concurrent-ruby (1.1.7)
     css_parser (1.7.1)
       addressable
@@ -61,7 +65,8 @@ DEPENDENCIES
   asciidoctor (~> 2.0)
   asciidoctor-diagram (~> 2.0)
   asciidoctor-pdf (~> 1.5)
+  asciidoctor-revealjs (~> 4.1)
   liquidoc (~> 0.9.5)
 
 BUNDLED WITH
-   2.1.4
+   2.2.4
