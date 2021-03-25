@@ -8,6 +8,9 @@ GEM
     asciidoctor (2.0.12)
     asciidoctor-diagram (2.0.5)
       asciidoctor (>= 1.5.7, < 3.x)
+    asciidoctor-html5s (0.5.0)
+      asciidoctor (>= 1.5.7, < 3.0)
+      thread_safe (~> 0.3.4)
     asciidoctor-pdf (1.5.3)
       asciidoctor (>= 1.5.3, < 3.0.0)
       concurrent-ruby (~> 1.1.0)
@@ -64,6 +67,7 @@ PLATFORMS
 DEPENDENCIES
   asciidoctor (~> 2.0)
   asciidoctor-diagram (~> 2.0)
+  asciidoctor-html5s (~> 0.5.0)
   asciidoctor-pdf (~> 1.5)
   asciidoctor-revealjs (~> 4.1)
   liquidoc (~> 0.9.5)
