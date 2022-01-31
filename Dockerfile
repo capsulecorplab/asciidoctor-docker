@@ -7,5 +7,3 @@ RUN bundle i
 
 # create WORKDIR
 WORKDIR /src
-
-ENTRYPOINT ["/bin/bash", "-c"]
